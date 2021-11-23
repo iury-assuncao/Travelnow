@@ -1,0 +1,120 @@
+.section1{
+    display: flex;
+    align-items: center;
+    margin-top: 7rem;
+    justify-content:flex-end;
+     
+}
+
+.section1 aside{
+    width: 46%;
+}
+
+.title-section1{
+    font-family: 'Crimson Text';
+    font-size: 7.6rem;
+    color: #0F214F;
+    line-height: 91.7%;
+    
+}
+
+.text-section1{
+    font-family: 'Nunito';
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #3D3D3D;
+    margin-top: 1.9rem;
+
+}
+
+.input{
+    width: 84.7%;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.21);
+    border-radius: 100px;
+    color: #FBB667;
+    border: none;
+    margin-top: 3.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 3rem;
+    
+    
+}
+
+#input{
+    width: 100%;
+    border: none;
+    height: 3rem;
+    border-radius: 100px;
+}
+
+#input::placeholder{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #FBB667;
+}
+
+.input button{
+    width: 29.7%;
+    height: 47px;
+    background: #FBB667;
+    border-radius: 100px;
+    border:none;
+    color: #fff;
+    font-family: 'Nunito';
+    font-weight: 700;
+    
+}
+
+.input button:hover{
+    background:#0F214F;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+
+
+.section1 img{
+    width: 48.65%;
+}
+
+@media (max-width:768px){
+    .section1{
+        flex-direction: column-reverse;
+    }
+
+    .section1 aside{
+        width: 84.5%;
+        margin: 0 auto;
+        margin-top:5rem;
+    }
+
+    .section1 img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .title-section1{
+        font-size: 3rem;
+        width: 70%;
+        
+    }
+    .text-section1{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .input{
+        margin: 0 auto;
+        height: 4.4rem;
+        margin-top: 3rem;
+    }
+    #copy{
+        margin-top:2rem;
+    }
+
+    
+    
+}

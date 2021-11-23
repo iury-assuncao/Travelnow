@@ -1,0 +1,124 @@
+.section2{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    gap:7rem;
+    margin-top:13.4rem
+}
+
+.section2 img{
+    width: 46.3%;
+        
+    
+}
+
+.section2 aside{
+    width: 42.7%;
+}
+
+#title-section2{
+    font-family: 'Crimson Text';
+    font-size: 5.2rem;
+    line-height: 113.7%;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+#text-section2{
+    font-family: 'Nunito';
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 145.2%;
+    letter-spacing: 0.015em;
+    color: #3D3D3D;
+    width: 88.6%;
+}
+
+.section2 a{
+    color:#fff;
+    font-family: 'Nunito';
+
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+
+
+.section2 button{
+    width: 21rem;
+    height: 47px;
+    background: #0F214F;
+    border-radius: 100px;
+    border: none;
+    margin-top: 2.6rem;
+    cursor: pointer;
+}
+
+.section2 button:hover{
+    background: #FBB667;
+    transition: 0.6s;
+}
+
+#list-data{
+    display: flex;
+    margin-top: 1.6rem;
+    gap:6rem;
+}
+
+#list-data span{
+    font-size: 4.4rem;
+    color: #FBB667;
+    font-weight: 700;
+    line-height: 100%;
+    
+    
+
+}
+
+#data{
+    font-weight: 300;
+    font-size: 1.6rem;
+    font-family: 'Nunito';
+    color: #3D3D3D;
+    width: 10rem;
+    line-height: 145.2%;
+}
+
+#data1{
+    width: 8rem;
+    font-weight: 300;
+    font-size: 1.6rem;
+    font-family: 'Nunito';
+    color: #3D3D3D;
+    line-height: 145.2%;
+    
+}
+
+@media (max-width:768px){
+    .section2{
+        flex-direction: column;
+        margin-top: 13rem;
+    }
+
+    .section2 aside{
+        width: 84.5%;
+        margin-top: 1rem;
+        gap:1.2rem
+    }
+
+    #title-section2{
+        font-size: 3rem;
+    }
+
+    #list-data{
+        display: none;
+    }
+
+    .section2 img{
+        width: 84.5%;
+    }
+
+    
+    
+}

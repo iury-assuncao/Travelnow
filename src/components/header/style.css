@@ -1,0 +1,86 @@
+.header{
+    display: flex;
+    
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 1.8rem;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    justify-content: space-between;
+    
+    
+}
+
+.header nav{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    justify-content:space-between;
+    
+    
+}
+
+#navs{
+    display: flex;
+    gap: 4.8rem;
+    
+}
+
+#book{
+    width: 17.2rem;
+    height: 4.5rem;
+    background: #FBB667;
+    box-shadow: 0px 5px 8px rgba(251, 182, 103, 0.58);
+    border-radius: 100px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#book:hover{
+    background:#0F214F;
+    transition: 0.6s;
+    box-shadow: 0px 5px 8px rgba(49, 33, 104, 0.58);
+}
+.header a{
+    color: #B6B6B6;
+}
+
+.header a:hover{
+    color: #757575;
+    transition: 0.6s;
+}
+
+#discover{
+    color: #FBB667;
+}
+
+#discover:hover{
+    color: #0F214F;
+    transition: 0.6s;
+}
+
+.menu{
+    display: none;
+}
+
+@media (max-width:768px){
+    .header nav{
+        display: none;
+
+    }
+
+    .header button{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+}
